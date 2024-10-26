@@ -1,0 +1,17 @@
+type: edu
+files:
+  - name: src/resources/application.conf
+    visible: true
+    learner_created: false
+  - name: src/tictactoeonline/Application.kt
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/TicTacToeOnlineTest.kt
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30564#comment
+status: Unchecked
+record: -1

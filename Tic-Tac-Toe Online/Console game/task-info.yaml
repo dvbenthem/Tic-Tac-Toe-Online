@@ -1,0 +1,70 @@
+type: edu
+files:
+  - name: src/resources/application.conf
+    visible: true
+    learner_created: false
+  - name: src/tictactoeonline/Application.kt
+    visible: true
+    learner_created: false
+  - name: test/TicTacToeOnlineTest.kt
+    visible: false
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30563#comment
+status: Failed
+feedback:
+  message: |-
+    java.lang.AssertionError: Wrong answer in test #2
+
+    Expected:
+    |---|---|---|---|---|-y
+    |   |   |   |   |   |
+    |---|---|---|---|---|
+    |   |   |   |   |   |
+    |---|---|---|---|---|
+    |
+    x
+    Found:
+    Field size: 2x5
+
+    |---|---|---|-y
+    |   |   |   |
+    |---|---|---|
+    |   |   |   |
+    |---|---|---|
+    |   |   |   |
+    |---|---|---|
+    |
+    x
+    Enter Bob&#39;s move as (x,y)
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    Enter the first player&#39;s name (Player1 by default)
+    &gt; Artem
+    First player&#39;s name: Artem
+    Enter the second player&#39;s name (Player2 by default)
+    &gt; Lollipop
+    Second player&#39;s name: Lollipop
+
+    Enter the field size (3x3 by default):
+    &gt; 2x5
+    Field size: 2x5
+
+    |---|---|---|-y
+    |   |   |   |
+    |---|---|---|
+    |   |   |   |
+    |---|---|---|
+    |   |   |   |
+    |---|---|---|
+    |
+    x
+    Enter Bob&#39;s move as (x,y)
+  time: "Fri, 25 Oct 2024 21:58:08 UTC"
+record: -1

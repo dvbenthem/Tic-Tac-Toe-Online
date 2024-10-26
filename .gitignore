@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/Tic-Tac-Toe Online/task/build/
+/Tic-Tac-Toe Online/task/out/
+/Tic-Tac-Toe Online/task/out/production/classes/
+/Tic-Tac-Toe Online/task/out/test/classes/
+/Topics/Jumps and returns/Getting letters from the Alphabet/out/
+/Topics/Jumps and returns/Getting letters from the Alphabet/out/production/classes/
